@@ -1,0 +1,81 @@
+Dialogue:
+- Intro
+- print_prompt
+- make_choice
+
+User Pokemon:
+- movepool (hash: move => pp)
+- hp (max_hp, remaining_hp, colour_thresholds)
+- level (location dependent, 1-100)
+- name (variable)
+- stats (random increase 0-4 [hp, attack, defense, speed])
+- nature (change stat increase)
+- experience (current_experience, experience_threshold)
+- typing (move_power [.5, 1, 1.5, 2 -> type_dependent], dual typing?)
+- evolve (set_evolve_level, stat_increase.to_i, name_change, type_change?, learn_move?, replace_move)
+- status (poison, para, sleep, 
+- ability (move_power +/-, out_of_battle_effect, change_weather)
+
+Location:
+- name (variable)
+- grid size (set sizes for location, m*n [possible representation w/ symbols])
+- PC (restore_hp, change_pokemon)
+- Mart (buy_item, sell_item, bank_account +/-)
+- gym (badge [effect], gym_trainers, gym_leader)
+- trainers / npc (dialogue, initiate_battle, end_battle, bank_account + if win, return_to_pc if loss)
+
+Opponent Pokemon:
+- category (list: stage1, stage2, stage3, solo, mega, mythical, legendary)
+- wild / trainer (possible_pokemon [location_dependent], random_pokemon_stage_x [location_dependent])
+- hp (max_hp, remaining_hp, colour_thresholds)
+- level (location dependent, 1-100)
+- movepool (hash: move => pp)
+- stats (random generate based on level, priority to known strength/weakness)
+- experience offered (random generate based on level, current_experience + if win)
+- catch_rate (category_dependent)
+
+Movement:
+- arrows (change cell_value, event_call)
+
+Options:
+- load / save (game_status, pokemon_status, current_state)
+- pokemon_status (check_current_pokemon [print], check_level, check_hp, check_experience)
+- items (check_items [print], heal_with_item, use_item)
+- pokedex (pokedex_status, check_pokedex [print], 807 possible_pokemon)
+
+Trainer:
+- name (variable)
+- bank_account (variable)
+- trainer_status (region_champion)
+- battle_status (boolean true/false)
+- current_pokemon_amount (1-6, send_to_storage if amount > 6)
+
+Opposing Trainer:
+- (bank_account + if win)
+- loss_phrase (list)
+- win_phrase (list)
+
+Moves:
+- offense (hp -, stat -, inflict_status) 
+- defense (stat +, negate_damage)
+- support (inflict_status, hp +)
+- list (694 regular, 34 z_moves)
+(power, accuracy)
+
+Evil Team:
+- name (variable)
+- grunts (name, possible_pokemon)
+- admin (name, possible_pokemon)
+- leaders (name, possible_pokemon)
+
+Items:
+- name (variable)
+- category (filter_items)
+- effect (hp +/-, move_change, stat +/- [non_perma / perma], ability_change
+- amount (hash: name => amount)
+
+Updates:
+- 1) Kanto (base 151 pokemon, 8 gyms, pc_storage[150], day_care? [eggs?])
+- 2) Johto (region_change [ship?], pokemon+Johto gyms+8, pc_storage[240], dual_typing?)
+- 3) Hoenn (region_change, gyms+8, pokemon+Hoenn, add_weather_effects, pc_storage[360])
+- tbc
