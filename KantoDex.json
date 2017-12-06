@@ -1,0 +1,519 @@
+{
+	"Bulbasaur":{
+		"dex_num":1,
+		"category": "stage1",
+		"hp":20,
+		"attack":50,
+		"defense":50,
+		"current_level":5,
+		"evolve_level":16,
+		"evolution":"Ivysaur",
+		"current_experience":0,
+		"experience_threshold":85,
+		"ability":"overgrow",
+		"type":"grass",
+		"moves": [
+			"tackle"
+			],
+		"level_curve":1.3
+		},
+	"Ivysaur":{
+		"dex_num":2,
+		"category": "stage2",
+		# "hp":
+		# "attack":
+		# "defense":
+		# "current_level":
+		"evolve_level":32,
+		"evolution":"Venusaur",
+		# "current_experience":
+		# "experience_threshold":
+		"ability":"overgrow",
+		"type":["grass", "poison"],
+		"moves": [
+			],
+		"level_curve":1.3
+		},
+	"Venusaur":{
+		"dex_num":3,
+		"category": "stage3",
+		# "hp":
+		# "attack":
+		# "defense":
+		# "current_level":
+		# "evolve_level":
+		# "evolution":
+		# "current_experience":
+		# "experience_threshold":
+		"ability":"overgrow",
+		"type":["grass", "poison"],
+		"moves": [
+			],
+		"level_curve":1.3
+		},
+	"Charmander":{
+		"dex_num":4,
+		"category": "stage1",
+		"hp":17,
+		"attack":55,
+		"defense":45,
+		"current_level":5,
+		"evolve_level":16,
+		"evolution":"Charmeleon",
+		"current_experience":0,
+		"experience_threshold":85,
+		"ability":"blaze",
+		"type":"fire",
+		"moves": [
+			"scratch"
+			],
+		"level_curve":1.3
+		},
+	"Charmeleon":{
+		"dex_num":5,
+		"category": "stage2",
+		# "hp":
+		# "attack":
+		# "defense":
+		# "current_level":
+		"evolve_level":36,
+		"evolution":"Charizard",
+		# "current_experience":
+		# "experience_threshold":
+		"ability":"blaze",
+		"type":"fire",
+		"moves": [
+			],
+		"level_curve":1.3
+		},
+		{
+	"Charizard":{
+		"dex_num":6,
+		"category": "stage3",
+		# "hp":
+		# "attack":
+		# "defense":
+		# "current_level":
+		# "evolve_level":
+		# "evolution":
+		# "current_experience":
+		# "experience_threshold":
+		"ability":"blaze",
+		"type":"fire",
+		"moves": [
+			],
+		"level_curve":1.3
+		},
+	"Squirtle":{
+		"dex_num":7,
+		"category": "stage1",
+		"hp":23,
+		"attack":45,
+		"defense":55,
+		"current_level":5,
+		"evolve_level":16,
+		"evolution":"Wartortle",
+		"current_experience":0,
+		"experience_threshold":85,
+		"ability":"torrent",
+		"type":"water",
+		"moves": [
+			"tackle"
+			],
+		"level_curve":1.3
+		},
+	"Wartortle":{
+		"dex_num":8,
+		"category": "stage2",
+		# "hp":
+		# "attack":
+		# "defense":
+		# "current_level":,
+		"evolve_level":16,
+		"evolution":"Blastoise",
+		# "current_experience":
+		# "experience_threshold":
+		"ability":"torrent",
+		"type":"water",
+		"moves": [
+			],
+		"level_curve":1.3
+		},
+	"Blastoise":{
+		"dex_num":9,
+		"category": "stage3",
+		# "hp":
+		# "attack":
+		# "defense":
+		# "current_level":
+		# "evolve_level":
+		# "evolution":
+		# "current_experience":
+		# "experience_threshold":
+		"ability":"torrent",
+		"type":"water",
+		"moves": [
+			],
+		"level_curve":1.3
+		},
+	"Caterpie":{
+		"dex_num":10,
+		"category": "stage1",
+		"hp":20,
+		"attack":50,
+		"defense":50,
+		"current_level":[2, 3, 4],
+		"evolve_level":7,
+		"evolution":"Ivysaur",
+		"current_experience":0,
+		"experience_threshold":85,
+		"ability":"shield dust",
+		"type":"bug",
+		"moves": [
+			"tackle"
+			],
+		"level_curve":1.3
+		},
+		{
+	"Bulbasaur":{
+		"dex_num":11,
+		"category": "stage1",
+		"hp":20,
+		"attack":50,
+		"defense":50,
+		"current_level":5,
+		"evolve_level":16,
+		"evolution":"Ivysaur",
+		"current_experience":0,
+		"experience_threshold":85,
+		"ability":"overgrow",
+		"type":"grass",
+		"moves": [
+			"tackle"
+			],
+		"level_curve":1.3
+		},
+		{
+	"Bulbasaur":{
+		"dex_num":12,
+		"category": "stage1",
+		"hp":20,
+		"attack":50,
+		"defense":50,
+		"current_level":5,
+		"evolve_level":16,
+		"evolution":"Ivysaur",
+		"current_experience":0,
+		"experience_threshold":85,
+		"ability":"overgrow",
+		"type":"grass",
+		"moves": [
+			"tackle"
+			],
+		"level_curve":1.3
+		},
+		{
+	"Bulbasaur":{
+		"dex_num":13,
+		"category": "stage1",
+		"hp":20,
+		"attack":50,
+		"defense":50,
+		"current_level":5,
+		"evolve_level":16,
+		"evolution":"Ivysaur",
+		"current_experience":0,
+		"experience_threshold":85,
+		"ability":"overgrow",
+		"type":"grass",
+		"moves": [
+			"tackle"
+			],
+		"level_curve":1.3
+		},
+		{
+	"Bulbasaur":{
+		"dex_num":14,
+		"category": "stage1",
+		"hp":20,
+		"attack":50,
+		"defense":50,
+		"current_level":5,
+		"evolve_level":16,
+		"evolution":"Ivysaur",
+		"current_experience":0,
+		"experience_threshold":85,
+		"ability":"overgrow",
+		"type":"grass",
+		"moves": [
+			"tackle"
+			],
+		"level_curve":1.3
+		},
+		{
+	"Bulbasaur":{
+		"dex_num":15,
+		"category": "stage1",
+		"hp":20,
+		"attack":50,
+		"defense":50,
+		"current_level":5,
+		"evolve_level":16,
+		"evolution":"Ivysaur",
+		"current_experience":0,
+		"experience_threshold":85,
+		"ability":"overgrow",
+		"type":"grass",
+		"moves": [
+			"tackle"
+			],
+		"level_curve":1.3
+		},
+		{
+	"Bulbasaur":{
+		"dex_num":16,
+		"category": "stage1",
+		"hp":20,
+		"attack":50,
+		"defense":50,
+		"current_level":5,
+		"evolve_level":16,
+		"evolution":"Ivysaur",
+		"current_experience":0,
+		"experience_threshold":85,
+		"ability":"overgrow",
+		"type":"grass",
+		"moves": [
+			"tackle"
+			],
+		"level_curve":1.3
+		},
+		{
+	"Bulbasaur":{
+		"dex_num":17,
+		"category": "stage1",
+		"hp":20,
+		"attack":50,
+		"defense":50,
+		"current_level":5,
+		"evolve_level":16,
+		"evolution":"Ivysaur",
+		"current_experience":0,
+		"experience_threshold":85,
+		"ability":"overgrow",
+		"type":"grass",
+		"moves": [
+			"tackle"
+			],
+		"level_curve":1.3
+		},
+		{
+	"Bulbasaur":{
+		"dex_num":18,
+		"category": "stage1",
+		"hp":20,
+		"attack":50,
+		"defense":50,
+		"current_level":5,
+		"evolve_level":16,
+		"evolution":"Ivysaur",
+		"current_experience":0,
+		"experience_threshold":85,
+		"ability":"overgrow",
+		"type":"grass",
+		"moves": [
+			"tackle"
+			],
+		"level_curve":1.3
+		},
+		{
+	"Bulbasaur":{
+		"dex_num":19,
+		"category": "stage1",
+		"hp":20,
+		"attack":50,
+		"defense":50,
+		"current_level":5,
+		"evolve_level":16,
+		"evolution":"Ivysaur",
+		"current_experience":0,
+		"experience_threshold":85,
+		"ability":"overgrow",
+		"type":"grass",
+		"moves": [
+			"tackle"
+			],
+		"level_curve":1.3
+		},
+		{
+	"Bulbasaur":{
+		"dex_num":20,
+		"category": "stage1",
+		"hp":20,
+		"attack":50,
+		"defense":50,
+		"current_level":5,
+		"evolve_level":16,
+		"evolution":"Ivysaur",
+		"current_experience":0,
+		"experience_threshold":85,
+		"ability":"overgrow",
+		"type":"grass",
+		"moves": [
+			"tackle"
+			],
+		"level_curve":1.3
+		},
+		{
+	"Bulbasaur":{
+		"dex_num":21,
+		"category": "stage1",
+		"hp":20,
+		"attack":50,
+		"defense":50,
+		"current_level":5,
+		"evolve_level":16,
+		"evolution":"Ivysaur",
+		"current_experience":0,
+		"experience_threshold":85,
+		"ability":"overgrow",
+		"type":"grass",
+		"moves": [
+			"tackle"
+			],
+		"level_curve":1.3
+		},
+		{
+	"Bulbasaur":{
+		"dex_num":22,
+		"category": "stage1",
+		"hp":20,
+		"attack":50,
+		"defense":50,
+		"current_level":5,
+		"evolve_level":16,
+		"evolution":"Ivysaur",
+		"current_experience":0,
+		"experience_threshold":85,
+		"ability":"overgrow",
+		"type":"grass",
+		"moves": [
+			"tackle"
+			],
+		"level_curve":1.3
+		},
+		{
+	"Bulbasaur":{
+		"dex_num":23,
+		"category": "stage1",
+		"hp":20,
+		"attack":50,
+		"defense":50,
+		"current_level":5,
+		"evolve_level":16,
+		"evolution":"Ivysaur",
+		"current_experience":0,
+		"experience_threshold":85,
+		"ability":"overgrow",
+		"type":"grass",
+		"moves": [
+			"tackle"
+			],
+		"level_curve":1.3
+		},
+		{
+	"Bulbasaur":{
+		"dex_num":24,
+		"category": "stage1",
+		"hp":20,
+		"attack":50,
+		"defense":50,
+		"current_level":5,
+		"evolve_level":16,
+		"evolution":"Ivysaur",
+		"current_experience":0,
+		"experience_threshold":85,
+		"ability":"overgrow",
+		"type":"grass",
+		"moves": [
+			"tackle"
+			],
+		"level_curve":1.3
+		},
+		{
+	"Bulbasaur":{
+		"dex_num":25,
+		"category": "stage1",
+		"hp":20,
+		"attack":50,
+		"defense":50,
+		"current_level":5,
+		"evolve_level":16,
+		"evolution":"Ivysaur",
+		"current_experience":0,
+		"experience_threshold":85,
+		"ability":"overgrow",
+		"type":"grass",
+		"moves": [
+			"tackle"
+			],
+		"level_curve":1.3
+		},
+		{
+	"Bulbasaur":{
+		"dex_num":26,
+		"category": "stage1",
+		"hp":20,
+		"attack":50,
+		"defense":50,
+		"current_level":5,
+		"evolve_level":16,
+		"evolution":"Ivysaur",
+		"current_experience":0,
+		"experience_threshold":85,
+		"ability":"overgrow",
+		"type":"grass",
+		"moves": [
+			"tackle"
+			],
+		"level_curve":1.3
+		},
+		{
+	"Bulbasaur":{
+		"dex_num":27,
+		"category": "stage1",
+		"hp":20,
+		"attack":50,
+		"defense":50,
+		"current_level":5,
+		"evolve_level":16,
+		"evolution":"Ivysaur",
+		"current_experience":0,
+		"experience_threshold":85,
+		"ability":"overgrow",
+		"type":"grass",
+		"moves": [
+			"tackle"
+			],
+		"level_curve":1.3
+		},
+		{
+	"Bulbasaur":{
+		"dex_num":28,
+		"category": "stage1",
+		"hp":20,
+		"attack":50,
+		"defense":50,
+		"current_level":5,
+		"evolve_level":16,
+		"evolution":"Ivysaur",
+		"current_experience":0,
+		"experience_threshold":85,
+		"ability":"overgrow",
+		"type":"grass",
+		"moves": [
+			"tackle"
+			],
+		"level_curve":1.3
+		},	
+}
