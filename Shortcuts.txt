@@ -1,0 +1,19 @@
+		# "hp":
+		# "attack":
+		# "defense":
+		# "current_level":
+
+		# "current_experience":
+		# "experience_threshold":
+
+		# "hp":
+		# "attack":
+		# "defense":
+		# "current_level":
+		# "evolve_level":
+		# "evolution":
+		# "current_experience":
+		# "experience_threshold":
+		
+https://gist.github.com/shri/9754992
+https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_Ability
